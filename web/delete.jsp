@@ -4,6 +4,18 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/xml" prefix="x"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/main.css">
+        <title>error Page</title>
+    </head>
+ <%
+    if ((session.getAttribute("userid") == null) || (session.getAttribute("userid") == "")) {
+%>
+You are not logged in<br/>
+<a href="index.jsp">Please Login</a>
+<%} else {
+%>
 <%
     request.setCharacterEncoding("UTF-8");  
    
@@ -23,3 +35,7 @@
          
          response.sendRedirect("success.jsp");
     %>
+    
+    <%
+    }
+%>
