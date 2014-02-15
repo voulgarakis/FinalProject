@@ -31,7 +31,7 @@
                     </tr>
                     <tr>
                         <td>Email</td>
-                        <td><input type="text" name="email" value="" required="" placeholder="Email"/></td>
+                        <td><input type="email" name="email" value="" required="" placeholder="Email"/></td>
                     </tr>
                     <tr>
                         <td>User Name</td>

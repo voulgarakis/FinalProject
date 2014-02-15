@@ -1,7 +1,25 @@
-Sth selida o xrhsths 8a mporei xwris log in na exei th dunatothta (san test page) na vlepei ta teleutaia nea tou google mesw tou rss tou.
-Epishs h selida krataei thn tautothta tou xrhsth gia ena xrono mesw cookie. http://www.w3schools.com/js/js_cookies.asp
-Kata to register elegxetai an uparxei hdh to idio username sth vash kai an nai den epitrepetai na exoume diplotupa.
-O kwdikas pou xrhsimopoiei gia to parsing twn rss links einai apo authn th selida. http://viralpatel.net/blogs/parsing-rss-xml-using-jstl-tag-library/
-Afou kanei register o xrhsths mporei na valei osa rss links 8elei kai na ta diagrafei me vash to id tous. O xrhsths de 8a mporei na diagrapsei links kapoiou 
-allou xrhsth oute na dei ta links pou exei ston pinaka tou kapoios allos.
+--> Gia thn ulopoihsh ths selidas xrhsomopoihsa JSPs kai 2 servlets(gia login kai register).Sth selida o xrhsths 8a mporei xwris login na exei th 
+dunatothta (san test page) na vlepei ta teleutaia nea tou google mesw tou rss tou. Afou kanei register mporei na valei osa rss links 8elei kai na ta 
+diagrafei me vash to id tous. O xrhsths de 8a mporei na diagrapsei links kapoiou allou oute na dei ta links pou exei ston pinaka tou kapoios allos.. 
 
+--> Epishs h selida krataei thn tautothta tou xrhsth gia ena xrono mesw cookie. http://www.w3schools.com/js/js_cookies.asp
+
+--> Kata to register elegxetai an uparxei hdh to idio username sth vash kai an nai den epitrepetai na exoume diplotupa. 
+
+--> O kwdikas pou xrhsimopoiw gia to parsing twn rss links einai apo authn th selida. http://viralpatel.net/blogs/parsing-rss-xml-using-jstl-tag-library/
+
+--> Ta vhmata pou akolou8hsa einai ta e3hs: Sthn arxh dhmiourhsa tis seides gia login kai register kai gia ka8e mia trexei ena servlet gia ton elegxo twn stoixeiwn kai 
+thn eisagwgh tous sth vash dedomenwn. Ekei mesa uparxoun 2 pinakes, "xrhstes" kai "links". O prwtos exei mesa tous eggegrammenous xrhstes sth selida kai o deuteros 
+gia ka8e xrhsth exei ta links pou exei apo8hkeusei sth vash.
+
+--> Sto success.jsp to xrhsths pros8etei links(apo pisw trexei to addlink.jsp), diagrafei links(apo pisw trexei to delete.jsp) kai kanontas epikollhsh to link pou
+ 8elei vlepei ta periexomena.
+
+--> Epishs uparxoun kai error pages, dhladh otan kapoios dn exei kanei login den mporei na mpei stis selides pou prepei prwta na kaneis login gia na deis to 
+periexomeno tous.
+
+--> to CSS ths selidas einai polu aplo. Opws mas eipe kai o k.Vavalhs, den einai anagkh na epikentrw8oume se auton ton tomea.
+
+
+
+Dimitris Voulgarakis

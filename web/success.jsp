@@ -5,6 +5,10 @@
 <%@ page import="java.sql.*" %>
 <%@ page import="java.io.*" %> 
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+          <link rel="stylesheet" href="css/main2.css">
+ </head>
 <%
     if ((session.getAttribute("userid") == null) || (session.getAttribute("userid") == "")) {
 %>
@@ -21,7 +25,7 @@ You are not logged in<br/>
     String user=  session.getAttribute("userid").toString();
     
    Class.forName("com.mysql.jdbc.Driver");
-   Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/members?useUnicode=true&characterEncoding=UTF-8","root","");
+   Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/members?useUnicode=true&characterEncoding=UTF-8","root","%vo32174");
     
     Statement st = conn.createStatement();
     
@@ -37,9 +41,7 @@ You are not logged in<br/>
 
 <html>
    
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-          <link rel="stylesheet" href="css/main2.css">
+    
     <body>
         <TABLE cellpadding="15" border="1" style="background-color: #ffffcc;">
         <TR>
